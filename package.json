@@ -1,0 +1,15 @@
+{
+  "name": "tsdfutsal",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsdfutsal/tsdfutsal.github.io.git"
+  },
+  "private": true
+}
