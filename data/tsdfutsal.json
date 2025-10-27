@@ -1,74 +1,246 @@
 [
-{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"tsdfutsal"},
-{"type":"table","name":"faza","database":"tsdfutsal","data":
-[
-{"id":"1","ime":"Prva faza"}
-]
-}
-,{"type":"table","name":"gol","database":"tsdfutsal","data":
-[
-{"id":"4","id_strijelca":"7","id_utakmice":"4","fallback_id_tim":null},
-{"id":"5","id_strijelca":"7","id_utakmice":"4","fallback_id_tim":null},
-{"id":"6","id_strijelca":"8","id_utakmice":"4","fallback_id_tim":null}
-]
-}
-,{"type":"table","name":"igrac","database":"tsdfutsal","data":
-[
-{"id":"5","ime":null,"prezime":"Brletić","id_tim":"9"},
-{"id":"6","ime":null,"prezime":"Horak","id_tim":"9"},
-{"id":"7","ime":"Vanja","prezime":"Horvat","id_tim":"1"},
-{"id":"8","ime":"Sven","prezime":"Rosman","id_tim":"1"}
-]
-}
-,{"type":"table","name":"penali","database":"tsdfutsal","data":
-[
-
-]
-}
-,{"type":"table","name":"stadion","database":"tsdfutsal","data":
-[
-{"id":"1","ime":"Sokol"},
-{"id":"2","ime":"Školsko"},
-{"id":"3","ime":"Dvorana"}
-]
-}
-,{"type":"table","name":"tim","database":"tsdfutsal","data":
-[
-{"id":"1","ime":"2. MT"},
-{"id":"2","ime":"2. SP"},
-{"id":"3","ime":"3. MT"},
-{"id":"4","ime":"1. PT"},
-{"id":"5","ime":"2. S"},
-{"id":"6","ime":"1. MT"},
-{"id":"7","ime":"3. P"},
-{"id":"8","ime":"1. RT"},
-{"id":"9","ime":"2. EL"},
-{"id":"10","ime":"3. SP"},
-{"id":"11","ime":"1. SE"},
-{"id":"12","ime":"1. S"},
-{"id":"13","ime":"M\/K"},
-{"id":"14","ime":"4. MT"},
-{"id":"15","ime":"1. EL"},
-{"id":"16","ime":"2. P"},
-{"id":"17","ime":"2. RT"},
-{"id":"18","ime":"1. PT"},
-{"id":"19","ime":"4. PT"},
-{"id":"20","ime":"3. RT"},
-{"id":"21","ime":"2. SA"},
-{"id":"22","ime":"3. EL"},
-{"id":"23","ime":"3. PT"},
-{"id":"24","ime":"2. PT"},
-{"id":"25","ime":"4. RT"},
-{"id":"26","ime":"Nastavnici"},
-{"id":"27","ime":"4. EL"},
-{"id":"28","ime":"3. S"}
-]
-}
-,{"type":"table","name":"utakmica","database":"tsdfutsal","data":
-[
-{"id":"2","id_faze":"1","id_tim1":"1","id_tim2":"2","id_stadion":null,"datum_vrijeme":null},
-{"id":"4","id_faze":"1","id_tim1":"1","id_tim2":"2","id_stadion":null,"datum_vrijeme":null}
-]
-}
+  {
+    "type": "header",
+    "version": "5.2.1",
+    "comment": "Export to JSON plugin for PHPMyAdmin"
+  },
+  {
+    "type": "database",
+    "name": "tsdfutsal"
+  },
+  {
+    "type": "table",
+    "name": "faza",
+    "database": "tsdfutsal",
+    "data": [
+      {
+        "id": "1",
+        "ime": "Prva faza"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "gol",
+    "database": "tsdfutsal",
+    "data": [
+      {
+        "id": "4",
+        "id_strijelca": "7",
+        "id_utakmice": "4",
+        "fallback_id_tim": null
+      },
+      {
+        "id": "5",
+        "id_strijelca": "7",
+        "id_utakmice": "4",
+        "fallback_id_tim": null
+      },
+      {
+        "id": "6",
+        "id_strijelca": "8",
+        "id_utakmice": "4",
+        "fallback_id_tim": null
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "igrac",
+    "database": "tsdfutsal",
+    "data": [
+      {
+        "id": "5",
+        "ime": null,
+        "prezime": "Brletić",
+        "id_tim": "9"
+      },
+      {
+        "id": "6",
+        "ime": null,
+        "prezime": "Horak",
+        "id_tim": "9"
+      },
+      {
+        "id": "7",
+        "ime": "Vanja",
+        "prezime": "Horvat",
+        "id_tim": "1"
+      },
+      {
+        "id": "8",
+        "ime": "Sven",
+        "prezime": "Rosman",
+        "id_tim": "1"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "penali",
+    "database": "tsdfutsal",
+    "data": [
+    ]
+  },
+  {
+    "type": "table",
+    "name": "stadion",
+    "database": "tsdfutsal",
+    "data": [
+      {
+        "id": "1",
+        "ime": "Sokol"
+      },
+      {
+        "id": "2",
+        "ime": "Školsko"
+      },
+      {
+        "id": "3",
+        "ime": "Dvorana"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "tim",
+    "database": "tsdfutsal",
+    "data": [
+      {
+        "id": "1",
+        "ime": "2. MT"
+      },
+      {
+        "id": "2",
+        "ime": "2. SP"
+      },
+      {
+        "id": "3",
+        "ime": "3. MT"
+      },
+      {
+        "id": "4",
+        "ime": "1. PT"
+      },
+      {
+        "id": "5",
+        "ime": "2. S"
+      },
+      {
+        "id": "6",
+        "ime": "1. MT"
+      },
+      {
+        "id": "7",
+        "ime": "3. P"
+      },
+      {
+        "id": "8",
+        "ime": "1. RT"
+      },
+      {
+        "id": "9",
+        "ime": "2. EL"
+      },
+      {
+        "id": "10",
+        "ime": "3. SP"
+      },
+      {
+        "id": "11",
+        "ime": "1. SE"
+      },
+      {
+        "id": "12",
+        "ime": "1. S"
+      },
+      {
+        "id": "13",
+        "ime": "M\/K"
+      },
+      {
+        "id": "14",
+        "ime": "4. MT"
+      },
+      {
+        "id": "15",
+        "ime": "1. EL"
+      },
+      {
+        "id": "16",
+        "ime": "2. P"
+      },
+      {
+        "id": "17",
+        "ime": "2. RT"
+      },
+      {
+        "id": "18",
+        "ime": "1. PT"
+      },
+      {
+        "id": "19",
+        "ime": "4. PT"
+      },
+      {
+        "id": "20",
+        "ime": "3. RT"
+      },
+      {
+        "id": "21",
+        "ime": "2. SA"
+      },
+      {
+        "id": "22",
+        "ime": "3. EL"
+      },
+      {
+        "id": "23",
+        "ime": "3. PT"
+      },
+      {
+        "id": "24",
+        "ime": "2. PT"
+      },
+      {
+        "id": "25",
+        "ime": "4. RT"
+      },
+      {
+        "id": "26",
+        "ime": "Nastavnici"
+      },
+      {
+        "id": "27",
+        "ime": "4. EL"
+      },
+      {
+        "id": "28",
+        "ime": "3. S"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "name": "utakmica",
+    "database": "tsdfutsal",
+    "data": [
+      {
+        "id": "2",
+        "id_faze": "1",
+        "id_tim1": "1",
+        "id_tim2": "2",
+        "id_stadion": null,
+        "datum_vrijeme": null
+      },
+      {
+        "id": "4",
+        "id_faze": "1",
+        "id_tim1": "1",
+        "id_tim2": "2",
+        "id_stadion": null,
+        "datum_vrijeme": null
+      }
+    ]
+  }
 ]
